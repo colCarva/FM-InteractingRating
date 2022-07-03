@@ -26,8 +26,8 @@ body {
 }
 main {
     background-color: hsl(213, 19%, 18%, 0.6);;
-    width: 415px;
-    height: 415px;
+    width: 85%;
+    min-height: 415px;
     position: absolute;
     left: 0;
     right: 0;
@@ -133,4 +133,10 @@ main .card {
     text-align:center;
     margin:20px 30px;
     word-spacing: .1em;
+}
+@media (min-width: 315px) {
+    main {
+        max-width: 415px;
+        margin: 190px auto;
+    }
 }
