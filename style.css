@@ -65,6 +65,7 @@ main .card {
     height: 45px;
     border-radius: 50%;
     background-color: var(--Dark-Blue);
+    color: var(--Light-Grey);
     display: grid;
     place-items: center;
     cursor: pointer;
@@ -72,7 +73,7 @@ main .card {
 }
 .card__elements-container__item:hover {
     background-color: var(--Orange);
-    color: var(--Light-Grey);
+    color: var(--White);
 }
 .card__elements-container .card__elements-container__item-active {
     color: var(--White);
