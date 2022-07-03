@@ -72,7 +72,7 @@ main .card {
 }
 .card__elements-container__item:hover {
     background-color: var(--Orange);
-    color: var(--White);
+    color: var(--Light-Grey);
 }
 .card__elements-container .card__elements-container__item-active {
     color: var(--White);
