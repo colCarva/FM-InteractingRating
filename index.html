@@ -16,8 +16,8 @@
     <section>
       <!-- Rating state start -->
       <div class="card" v-if="!isThanksActive">
-        <img class="card__image" src="./images/icon-star.svg">
-        <h1 class="card__title">How did we do?</h1>
+        <img class="card__image" src="./images/icon-star.svg" alt="icon">
+        <h1 class="card__title">How did we do?</h1> 
         <p class="card__text">
           Please let us know how we did with your support request. All feedback is appreciated 
           to help us improve our offering!
@@ -33,7 +33,7 @@
       <!-- Rating state end -->
       <!-- Thank you state start -->
       <div class="cardThanks" v-else>
-        <img class="cardThanks__image" src="./images/illustration-thank-you.svg">
+        <img class="cardThanks__image" src="./images/illustration-thank-you.sv" alt="cardImage">
         <div class="cardThanks__label">
           <p>You selected {{selectedNumber}} out of 5</p>
         </div>
